@@ -16,6 +16,22 @@ A simple and powerful Email Sending System built using Spring Boot that allows s
 
 ---
 
+## 🔗 Project Links
+
+### 🌐 Live Application
+
+https://emailsender-whmv.onrender.com
+
+### 📖 Swagger API Documentation
+
+https://emailsender-whmv.onrender.com/swagger-ui/index.html
+
+### 💻 GitHub Repository
+
+https://github.com/Bhawana-A/EmailSender
+
+---
+
 # 🛠 Tech Stack
 
 - Java 17+
@@ -50,9 +66,6 @@ A simple and powerful Email Sending System built using Spring Boot that allows s
 
 ---
 
-## Service
-
-![Service Screenshot](Screenshots/service.png)
 
 ---
 
