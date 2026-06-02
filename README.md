@@ -50,9 +50,6 @@ A simple and powerful Email Sending System built using Spring Boot that allows s
 
 ---
 
-## Service
-
-![Service Screenshot](Screenshots/service.png)
 
 ---
 
