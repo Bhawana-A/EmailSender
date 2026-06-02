@@ -33,6 +33,6 @@ public class MailController {
 
         emailService.sendEmail(toEmail, subject, message, convFile);
 
-        return "Email Sent Successfully 🚀";
+        return "Email Sent Successfully ";
     }
 }
