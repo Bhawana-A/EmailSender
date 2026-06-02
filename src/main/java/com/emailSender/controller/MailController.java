@@ -8,6 +8,8 @@ import org.springframework.web.multipart.MultipartFile;
 
 import com.emailSender.service.EmailService;
 
+import io.swagger.v3.oas.annotations.media.Schema;
+
 @RestController
 @RequestMapping("/mail")
 public class MailController {
@@ -20,7 +22,10 @@ public class MailController {
             @RequestParam String toEmail,
             @RequestParam String subject,
             @RequestParam String message,
-            @RequestParam(required = false) MultipartFile file
+            @RequestParam(required = false)
+            @Schema(type = "string", format = "binary")
+            MultipartFile file
+            
     ) throws Exception {
 
         File convFile = null;
